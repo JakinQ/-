@@ -27,7 +27,6 @@
 import { IWalls } from '../models/wallModal';
 import { insertWallC } from '../controller/dbServe';
 import { errorHandler } from '../lib/path-to-error-handler-middleware';
-// import dbModel from '../lib/db';
 const dbModel = require('../lib/db');
 const WallServices = {
     insertWall: (data: IWalls) => {

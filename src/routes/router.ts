@@ -6,8 +6,8 @@ import { insertWallC, insertFeedback, insertComment, deleteWall, deleteFeedback,
 const router = express.Router();
 // const wallsController = require('../controller/wallsController');
 import { wallsController } from '../controller/wallsController';
-// console.log(wallsController);
-// wallsController.aa()
+
+
 // // 增加留言
 // router.post('/insertWall', wallsController.insertWall);
 // router.post('/insertWall', (req, res) => {

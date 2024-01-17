@@ -23,3 +23,10 @@ npm i multer --save
 
 ### ejs插件
 npm i ejs --save
+
+
+
+
+
+### 启动
+npm start
