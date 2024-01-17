@@ -1,0 +1,32 @@
+{
+    "name": "API...",
+    "version": "1.0.0",
+    "description": "111",
+    "title": "API222",
+    "url": "http://127.0.0.1:8091",
+    "header": {
+        "title": "My API Documentation",
+        "content": "This is the documentation for my API"
+    },
+    "footer": {
+        "title": "1",
+        "content": "2"
+    },
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    },
+    "sampleUrl": false,
+    "exclude": [
+        "node_modules/"
+    ],
+    "src": {
+        "include": [
+            "routes/"
+        ],
+        "exclude": [
+            "routes/private/"
+        ]
+    },
+    "dest": "./doc/"
+}
